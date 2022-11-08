@@ -33,14 +33,16 @@
         <li><button class="btn">5</button></li>
       </ul>
 
-      <button class="btn-submit">Submit</button>
+      <button class="btn-submit" id="submit">Submit</button>
   </div>
 
       <!-- Rating state end -->
       <!-- Thank you state start -->
   <div class="thank-you hidden">
     <img src="images/illustration-thank-you.svg" alt="">
-    <p class="num">You selected <!-- Add rating here --> out of 5</p>
+    <p class="num">You selected 
+      <span id="rating"></span>
+      out of 5</p>
 
     <h2>Thank you!</h2>
 
@@ -48,6 +50,6 @@
   </div>
     
   <!-- Thank you state end -->
-
+  <script src="script.js"></script>
 </body>
 </html>
